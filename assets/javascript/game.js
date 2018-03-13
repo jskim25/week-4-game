@@ -21,13 +21,13 @@ $(document).ready(function () {
 
         targetScore = Math.floor(Math.random()*120+19);
         $("#target-score").text(targetScore);
-        console.log("target score is:", targetScore);
+        // console.log("target score is:", targetScore);
         
         emerald = Math.floor(Math.random()*12)+1;
         ruby = Math.floor(Math.random()*12)+1;
         diamond = Math.floor(Math.random()*12)+1;
         amethyst = Math.floor(Math.random()*12)+1;
-        console.log("emerald:", emerald, "ruby:", ruby, "diamond:", diamond, "amethyst:", amethyst);
+        // console.log("emerald:", emerald, "ruby:", ruby, "diamond:", diamond, "amethyst:", amethyst);
     };
 
     function assessResult() {
